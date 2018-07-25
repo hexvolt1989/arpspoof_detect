@@ -1,8 +1,8 @@
 #!/usr/bin/python
 
 # ARP Spoofing detect script and send to syslog server.
-# Author: Anton Molotkov (DarkCat)
-# Usage ./main
+# Author: icebreaker & Anton Molotkov (DarkCat)
+# Usage ./main.py
 # Tested on: Linux
 # Dependencies: scapy, netsyslog
 
