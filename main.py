@@ -32,8 +32,5 @@ def arp_inspection(pkt):
           if int(time.time() - time_arp_req) > 5:  
               print "Alert! Attack from %s" % src
               send_syslog()
-          else:
-              print "Alert! Attack from %s" % src
-              send_syslog()
 sniff(filter='arp', prn=arp_inspection)
 
